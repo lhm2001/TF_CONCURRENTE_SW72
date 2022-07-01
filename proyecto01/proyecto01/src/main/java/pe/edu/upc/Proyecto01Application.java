@@ -13,6 +13,7 @@ import java.net.Socket;
 public class Proyecto01Application implements Serializable {
 
     public static void main(String[] args) {
+        SpringApplication.run(Proyecto01Application.class, args);
     }
 
 }
